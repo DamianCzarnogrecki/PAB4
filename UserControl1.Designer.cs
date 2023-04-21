@@ -38,10 +38,10 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(30, 103);
+            dataGridView1.Location = new Point(3, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(540, 138);
+            dataGridView1.Size = new Size(441, 299);
             dataGridView1.TabIndex = 0;
             // 
             // UserControl1
@@ -50,7 +50,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(dataGridView1);
             Name = "UserControl1";
-            Size = new Size(605, 444);
+            Size = new Size(446, 304);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)lokalizacjeBindingSource).EndInit();
             ResumeLayout(false);

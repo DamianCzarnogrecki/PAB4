@@ -53,16 +53,16 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(730, 311);
+            dataGridView1.Location = new Point(12, 340);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(283, 299);
+            dataGridView1.Size = new Size(736, 299);
             dataGridView1.TabIndex = 0;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.ForeColor = Color.White;
-            label5.Location = new Point(362, 208);
+            label5.Location = new Point(12, 12);
             label5.Name = "label5";
             label5.Size = new Size(85, 15);
             label5.TabIndex = 21;
@@ -70,7 +70,7 @@
             // 
             // textbox_kod
             // 
-            textbox_kod.Location = new Point(362, 226);
+            textbox_kod.Location = new Point(12, 30);
             textbox_kod.Name = "textbox_kod";
             textbox_kod.Size = new Size(222, 23);
             textbox_kod.TabIndex = 20;
@@ -79,7 +79,7 @@
             // 
             label4.AutoSize = true;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(362, 424);
+            label4.Location = new Point(12, 228);
             label4.Name = "label4";
             label4.Size = new Size(46, 15);
             label4.TabIndex = 19;
@@ -89,7 +89,7 @@
             // 
             label3.AutoSize = true;
             label3.ForeColor = Color.White;
-            label3.Location = new Point(362, 370);
+            label3.Location = new Point(12, 174);
             label3.Name = "label3";
             label3.Size = new Size(85, 15);
             label3.TabIndex = 17;
@@ -97,7 +97,7 @@
             // 
             // textbox_wojewodztwo
             // 
-            textbox_wojewodztwo.Location = new Point(362, 388);
+            textbox_wojewodztwo.Location = new Point(12, 192);
             textbox_wojewodztwo.Name = "textbox_wojewodztwo";
             textbox_wojewodztwo.Size = new Size(222, 23);
             textbox_wojewodztwo.TabIndex = 16;
@@ -106,7 +106,7 @@
             // 
             label2.AutoSize = true;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(362, 315);
+            label2.Location = new Point(12, 119);
             label2.Name = "label2";
             label2.Size = new Size(78, 15);
             label2.TabIndex = 15;
@@ -114,7 +114,7 @@
             // 
             // textbox_miejscowosc
             // 
-            textbox_miejscowosc.Location = new Point(362, 333);
+            textbox_miejscowosc.Location = new Point(12, 137);
             textbox_miejscowosc.Name = "textbox_miejscowosc";
             textbox_miejscowosc.Size = new Size(222, 23);
             textbox_miejscowosc.TabIndex = 14;
@@ -123,7 +123,7 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(362, 261);
+            label1.Location = new Point(12, 65);
             label1.Name = "label1";
             label1.Size = new Size(40, 15);
             label1.TabIndex = 13;
@@ -131,14 +131,14 @@
             // 
             // textbox_adres
             // 
-            textbox_adres.Location = new Point(362, 279);
+            textbox_adres.Location = new Point(12, 83);
             textbox_adres.Name = "textbox_adres";
             textbox_adres.Size = new Size(222, 23);
             textbox_adres.TabIndex = 12;
             // 
             // button3
             // 
-            button3.Location = new Point(362, 558);
+            button3.Location = new Point(305, 29);
             button3.Name = "button3";
             button3.Size = new Size(222, 23);
             button3.TabIndex = 24;
@@ -148,7 +148,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(362, 587);
+            button2.Location = new Point(305, 58);
             button2.Name = "button2";
             button2.Size = new Size(222, 23);
             button2.TabIndex = 23;
@@ -158,7 +158,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(362, 616);
+            button1.Location = new Point(305, 87);
             button1.Name = "button1";
             button1.Size = new Size(222, 23);
             button1.TabIndex = 22;
@@ -170,7 +170,7 @@
             // 
             label6.AutoSize = true;
             label6.ForeColor = Color.White;
-            label6.Location = new Point(362, 480);
+            label6.Location = new Point(12, 284);
             label6.Name = "label6";
             label6.Size = new Size(43, 15);
             label6.TabIndex = 26;
@@ -178,41 +178,42 @@
             // 
             // textbox_uwagi
             // 
-            textbox_uwagi.Location = new Point(362, 498);
+            textbox_uwagi.Location = new Point(12, 302);
             textbox_uwagi.Name = "textbox_uwagi";
             textbox_uwagi.Size = new Size(222, 23);
             textbox_uwagi.TabIndex = 25;
             // 
             // textbox_powiat
             // 
-            textbox_powiat.Location = new Point(362, 442);
+            textbox_powiat.Location = new Point(12, 246);
             textbox_powiat.Name = "textbox_powiat";
             textbox_powiat.Size = new Size(222, 23);
             textbox_powiat.TabIndex = 18;
             // 
             // userControl15
             // 
-            userControl15.Location = new Point(703, 12);
+            userControl15.Location = new Point(883, 340);
             userControl15.Name = "userControl15";
-            userControl15.Size = new Size(628, 264);
+            userControl15.Size = new Size(448, 299);
             userControl15.TabIndex = 27;
+            userControl15.Load += userControl15_Load;
             // 
             // errorLabel
             // 
             errorLabel.AutoSize = true;
             errorLabel.ForeColor = Color.Red;
-            errorLabel.Location = new Point(83, 542);
+            errorLabel.Location = new Point(305, 137);
             errorLabel.Name = "errorLabel";
             errorLabel.Size = new Size(0, 15);
             errorLabel.TabIndex = 28;
             // 
             // dataEditButton
             // 
-            dataEditButton.Location = new Point(1019, 315);
+            dataEditButton.Location = new Point(305, 301);
             dataEditButton.Name = "dataEditButton";
-            dataEditButton.Size = new Size(75, 23);
+            dataEditButton.Size = new Size(222, 23);
             dataEditButton.TabIndex = 29;
-            dataEditButton.Text = "edytuj";
+            dataEditButton.Text = "Edytuj wpis";
             dataEditButton.UseVisualStyleBackColor = true;
             dataEditButton.Click += dataEditButton_Click;
             // 

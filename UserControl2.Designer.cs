@@ -48,7 +48,7 @@
             // 
             label6.AutoSize = true;
             label6.ForeColor = Color.White;
-            label6.Location = new Point(24, 294);
+            label6.Location = new Point(248, 117);
             label6.Name = "label6";
             label6.Size = new Size(43, 15);
             label6.TabIndex = 38;
@@ -56,7 +56,7 @@
             // 
             // textbox_uwagi
             // 
-            textbox_uwagi.Location = new Point(24, 312);
+            textbox_uwagi.Location = new Point(248, 135);
             textbox_uwagi.Name = "textbox_uwagi";
             textbox_uwagi.Size = new Size(222, 23);
             textbox_uwagi.TabIndex = 37;
@@ -65,7 +65,7 @@
             // 
             label5.AutoSize = true;
             label5.ForeColor = Color.White;
-            label5.Location = new Point(24, 22);
+            label5.Location = new Point(20, 10);
             label5.Name = "label5";
             label5.Size = new Size(85, 15);
             label5.TabIndex = 36;
@@ -73,7 +73,7 @@
             // 
             // textbox_kod
             // 
-            textbox_kod.Location = new Point(24, 40);
+            textbox_kod.Location = new Point(20, 28);
             textbox_kod.Name = "textbox_kod";
             textbox_kod.Size = new Size(222, 23);
             textbox_kod.TabIndex = 35;
@@ -82,7 +82,7 @@
             // 
             label4.AutoSize = true;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(24, 238);
+            label4.Location = new Point(248, 63);
             label4.Name = "label4";
             label4.Size = new Size(46, 15);
             label4.TabIndex = 34;
@@ -90,7 +90,7 @@
             // 
             // textbox_powiat
             // 
-            textbox_powiat.Location = new Point(24, 256);
+            textbox_powiat.Location = new Point(248, 81);
             textbox_powiat.Name = "textbox_powiat";
             textbox_powiat.Size = new Size(222, 23);
             textbox_powiat.TabIndex = 33;
@@ -99,7 +99,7 @@
             // 
             label3.AutoSize = true;
             label3.ForeColor = Color.White;
-            label3.Location = new Point(24, 184);
+            label3.Location = new Point(248, 10);
             label3.Name = "label3";
             label3.Size = new Size(85, 15);
             label3.TabIndex = 32;
@@ -107,7 +107,7 @@
             // 
             // textbox_wojewodztwo
             // 
-            textbox_wojewodztwo.Location = new Point(24, 202);
+            textbox_wojewodztwo.Location = new Point(248, 28);
             textbox_wojewodztwo.Name = "textbox_wojewodztwo";
             textbox_wojewodztwo.Size = new Size(222, 23);
             textbox_wojewodztwo.TabIndex = 31;
@@ -116,7 +116,7 @@
             // 
             label2.AutoSize = true;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(24, 129);
+            label2.Location = new Point(20, 117);
             label2.Name = "label2";
             label2.Size = new Size(78, 15);
             label2.TabIndex = 30;
@@ -124,7 +124,7 @@
             // 
             // textbox_miejscowosc
             // 
-            textbox_miejscowosc.Location = new Point(24, 147);
+            textbox_miejscowosc.Location = new Point(20, 135);
             textbox_miejscowosc.Name = "textbox_miejscowosc";
             textbox_miejscowosc.Size = new Size(222, 23);
             textbox_miejscowosc.TabIndex = 29;
@@ -133,7 +133,7 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(24, 75);
+            label1.Location = new Point(20, 63);
             label1.Name = "label1";
             label1.Size = new Size(40, 15);
             label1.TabIndex = 28;
@@ -141,14 +141,14 @@
             // 
             // textbox_adres
             // 
-            textbox_adres.Location = new Point(24, 93);
+            textbox_adres.Location = new Point(20, 81);
             textbox_adres.Name = "textbox_adres";
             textbox_adres.Size = new Size(222, 23);
             textbox_adres.TabIndex = 27;
             // 
             // editButton
             // 
-            editButton.Location = new Point(24, 371);
+            editButton.Location = new Point(20, 189);
             editButton.Name = "editButton";
             editButton.Size = new Size(222, 23);
             editButton.TabIndex = 39;
@@ -157,7 +157,7 @@
             // 
             // deleteButton
             // 
-            deleteButton.Location = new Point(24, 400);
+            deleteButton.Location = new Point(248, 189);
             deleteButton.Name = "deleteButton";
             deleteButton.Size = new Size(222, 23);
             deleteButton.TabIndex = 40;
@@ -168,7 +168,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.ForestGreen;
+            BackColor = SystemColors.ControlDark;
             Controls.Add(deleteButton);
             Controls.Add(editButton);
             Controls.Add(label6);
@@ -184,7 +184,7 @@
             Controls.Add(label1);
             Controls.Add(textbox_adres);
             Name = "UserControl2";
-            Size = new Size(266, 446);
+            Size = new Size(492, 231);
             ResumeLayout(false);
             PerformLayout();
         }

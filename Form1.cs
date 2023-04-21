@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Data;
 using PAB4.Models;
 using Dapper;
+using System.Windows.Forms;
 
 namespace PAB4
 {
@@ -114,6 +115,7 @@ namespace PAB4
                 errorLabel.Text = "";
                 userControl2 = new UserControl2();
                 Controls.Add(userControl2);
+                userControl2.Location = new Point(867, 0);
                 userControl2.editButton.Click += new EventHandler(EditButton_Click);
                 userControl2.deleteButton.Click += new EventHandler(DeleteButton_Click);
                 errorLabel.Text = "";
@@ -138,14 +140,14 @@ namespace PAB4
                     kodPocztowy.Uwagi = userControl2.textbox_uwagi.Text;
 
                     kontekst.SaveChanges();
-                    
+
                     errorLabel.Text = "Pomyœlnie zaktualizowano dane!";
                     GridRefresh();
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                errorLabel.Text = "B³¹d: "+ex;
+                errorLabel.Text = "B³¹d: " + ex;
             }
 
             Controls.Remove(userControl2);
@@ -165,10 +167,15 @@ namespace PAB4
             }
             catch (Exception ex)
             {
-                errorLabel.Text = "B³¹d: "+ex;
+                errorLabel.Text = "B³¹d: " + ex;
             }
 
             Controls.Remove(userControl2);
+        }
+
+        private void userControl15_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
